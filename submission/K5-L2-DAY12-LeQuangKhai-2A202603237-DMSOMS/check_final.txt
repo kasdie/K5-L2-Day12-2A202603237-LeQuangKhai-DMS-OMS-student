@@ -1,0 +1,39 @@
+File: submission/K5-L2-DAY12-LeQuangKhai-2A202603237-DMSOMS/export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=7, face=10, face13=6, hand=12, infant_seat=14, object=9, person=18, phone=2
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D01.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D03.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D03.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D05.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D05.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D06.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] S02_rgb.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S03_ir.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S03_ir.png: object: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+Kết quả: 0 lỗi, 15 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+GIẢI TRÌNH CẢNH BÁO SAU REVIEW
+Các WARN phía trên là kết quả bản trước review. Dưới đây ghi các sửa đổi thực tế đã áp dụng; bản v2 có 0 lỗi, 0 cảnh báo.
+- D01.png, eye_left: đã đổi eye_left từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D01.png, eye_right: đã đổi eye_right từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D02.png, eye_left: đã đổi eye_left từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D02.png, eye_right: đã đổi eye_right từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D03.png, eye_left: đã đổi eye_left từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D03.png, eye_right: đã đổi eye_right từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D04.png, eye_left: giữ eye_left=unknown; đã cập nhật 4 điểm occluded và 0 điểm outside theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D04.png, eye_right: giữ eye_right=unknown; đã cập nhật 4 điểm occluded và 0 điểm outside theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D05.png, eye_left: đã đổi eye_left từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D05.png, eye_right: đã đổi eye_right từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D06.png, eye_left: đã đổi eye_left từ unknown sang open theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- D06.png, eye_right: giữ eye_right=unknown; đã cập nhật 0 điểm occluded và 4 điểm outside theo thỏa thuận review với Chi. Đã kiểm lại trong check_final_v2.txt.
+- S02_rgb.png, object (ID CVAT 4723): đã đổi seat=driver thành rear_left theo quy ước ghế; giữ nguyên box. Đã kiểm lại trong check_final_v2.txt.
+- S03_ir.png, object (ID CVAT 4724): đã đổi seat=driver thành rear_middle theo quy ước ghế; giữ nguyên box. Đã kiểm lại trong check_final_v2.txt.
+- S03_ir.png, object (ID CVAT 4725): đã đổi seat=driver thành rear_right theo quy ước ghế; giữ nguyên box. Đã kiểm lại trong check_final_v2.txt.
+
+CẬP NHẬT SAU GÓP Ý MENTOR
+Các giải trình và kết quả 0 lỗi/0 cảnh báo ở phần sau-review phía trên thuộc giai đoạn trước góp ý mentor. Bản export_final_v2.zip hiện đã được cập nhật theo lần Save mới nhất; xem check_final_v2.txt hiện tại: 4 lỗi occupied=yes, 0 cảnh báo. Học viên đã xác nhận mentor yêu cầu giữ occupied=yes ở bốn khung này; ghi nhận là ngoại lệ so với schema gốc.

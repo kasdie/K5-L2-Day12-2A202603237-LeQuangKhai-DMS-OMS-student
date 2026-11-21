@@ -1,0 +1,11 @@
+File: submission/K5-L2-DAY12-LeQuangKhai-2A202603237-DMSOMS/export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=9, face=10, face13=6, hand=12, infant_seat=12, object=9, person=10, phone=2
+  [ERROR] S01_ir.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [ERROR] S01_rgb.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [ERROR] S08_ir.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [ERROR] S08_rgb.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+Kết quả: 4 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+NGOẠI LỆ ĐÃ ĐƯỢC HỌC VIÊN XÁC NHẬN
+Theo xác nhận của học viên trong cuộc trao đổi, mentor yêu cầu giữ child_seat.occupied=yes ở S01_ir, S01_rgb, S08_ir và S08_rgb. Các ERROR tương ứng so với schema Cabin v1.0 được giữ nguyên trong log; không sửa script hoặc schema để đổi kết quả kiểm tra.
+Thời điểm ghi nhận xác nhận (GMT+7): 2026-11-21T21:03:56+07:00
